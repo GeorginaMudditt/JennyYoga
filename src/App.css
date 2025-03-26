@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f2f2f2;
+  background-image: url("./assets/billie-holiday.png");
+}
+
+h1 {
+  margin: 0;
+}

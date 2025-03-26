@@ -1,0 +1,19 @@
+.Intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Intro a,
+h1 {
+  color: #685454;
+}
+
+.Intro .socials-icon {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.Intro .heart-socks {
+  height: 300px;
+}
