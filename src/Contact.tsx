@@ -1,11 +1,39 @@
 import "./App.css";
 import "./Contact.css";
+import freedom from "./assets/freedom.jpg";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 function Contact() {
   return (
     <>
       <div className="Contact">
-        <h1>Contact</h1>
+        <div className="contact-text">
+          <h1>Contact</h1>
+          <p className="contact-details">
+            Rendez-moi visite à{" "}
+            <a href="https://v-forme.fr/" target="_blank" rel="noreferrer">
+              V-Forme
+            </a>
+            , Carcès
+          </p>
+          <p className="contact-details">
+            Réservez sur{" "}
+            <a href="https://www.planity.com/" target="_blank" rel="noreferrer">
+              Planity
+            </a>
+          </p>
+          <p className="contact-details">
+            <BsFillTelephoneFill className="contact-icon" />
+            00 00 00 00 00
+            <br />
+            <MdEmail className="contact-icon" />
+            jennyraymax@live.fr
+          </p>
+        </div>
+        <div className="contact-image">
+          <img className="freedom" src={freedom} alt="freedom in nature" />
+        </div>
       </div>
     </>
   );

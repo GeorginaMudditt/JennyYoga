@@ -1,3 +1,27 @@
 .Contact {
-  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact .freedom {
+  width: 400px;
+  border-radius: 4px;
+  margin-top: -40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Contact .contact-text {
+  padding: 20px;
+}
+
+.Contact a {
+  text-decoration: none;
+  color: #685454;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Contact .contact-icon {
+  margin-right: 10px;
 }

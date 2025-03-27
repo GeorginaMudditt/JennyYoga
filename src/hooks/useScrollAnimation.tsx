@@ -8,6 +8,8 @@ export const useScrollAnimation = () => {
         const rect = h1.getBoundingClientRect();
         if (rect.top < window.innerHeight && rect.bottom > 0) {
           h1.classList.add("visible");
+        } else {
+          h1.classList.remove("visible");
         }
       });
     };
