@@ -10,6 +10,14 @@ h1 {
   font-family: "Great Vibes", cursive;
   font-size: 50px;
   color: #685454;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+h1.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 h2 {

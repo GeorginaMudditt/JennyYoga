@@ -1,4 +1,5 @@
 import "./App.css";
+import { useScrollAnimation } from "./hooks/useScrollAnimation";
 import Header from "./Header";
 import Intro from "./Intro";
 import Jenny from "./Jenny";
@@ -8,6 +9,8 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 function App() {
+  useScrollAnimation();
+
   return (
     <>
       <div>
