@@ -14,6 +14,10 @@
 
 .AutresPrestations .massage {
   width: 300px;
+  margin-left: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 4px;
+  filter: grayscale(1);
 }
 
 .Jenny .jenny-intro-text {

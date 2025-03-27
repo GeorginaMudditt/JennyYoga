@@ -1,6 +1,6 @@
 import "./App.css";
 import "./Yoga.css";
-import outside from "./assets/outside.jpg";
+import outside from "./assets/yoga-outside.jpg";
 
 function Yoga() {
   return (

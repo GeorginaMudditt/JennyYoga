@@ -44,7 +44,11 @@ function Intro() {
           >
             <FaSquareInstagram className="socials-icon" />
           </a>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.tiktok.com/@userfytllk7yau"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaTiktok className="socials-icon" />
           </a>
           <audio ref={audioRef} loop>

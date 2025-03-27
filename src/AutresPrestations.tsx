@@ -1,6 +1,6 @@
 import "./App.css";
 import "./AutresPrestations.css";
-import massage from "./assets/massage.jpg";
+import massage from "./assets/massage2.jpg";
 
 function AutresPrestations() {
   return (
