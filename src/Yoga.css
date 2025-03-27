@@ -4,6 +4,14 @@
   justify-content: center;
 }
 
+.Yoga h1 {
+  margin: 20px 0;
+}
+
+.Yoga p {
+  margin: 0 20px 10px 20px;
+}
+
 .Yoga .outside-yoga {
   width: 100%;
 }

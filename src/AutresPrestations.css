@@ -4,8 +4,16 @@
   justify-content: center;
 }
 
+.AutresPrestations h1 {
+  margin: 20px 0;
+}
+
+.AutresPrestations p {
+  margin: 0 20px 10px 20px;
+}
+
 .AutresPrestations .massage {
-  width: 100%;
+  width: 300px;
 }
 
 .Jenny .jenny-intro-text {
