@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .AutresPrestations h1 {
@@ -20,6 +21,6 @@
   filter: grayscale(1);
 }
 
-.Jenny .jenny-intro-text {
-  padding: 20px;
+.AutresPrestations .massage-text {
+  padding: 20px 40px;
 }
