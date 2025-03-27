@@ -11,28 +11,28 @@ function AutresPrestations() {
         </div>
         <div className="massage-text">
           <h1>Autres Prestations</h1>
-          <h2>Méditation</h2>
+          <h2 id="meditation-section">Méditation</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             eaque. Similique illo expedita quae facere aut, incidunt esse itaque
             saepe alias, architecto nisi dignissimos officiis nihil officia
             quibusdam harum iure.
           </p>
-          <h2>Massage et soins énergétiques</h2>
+          <h2 id="massage-section">Massage et soins énergétiques</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             eaque. Similique illo expedita quae facere aut, incidunt esse itaque
             saepe alias, architecto nisi dignissimos officiis nihil officia
             quibusdam harum iure.
           </p>
-          <h2>Coaching Holistique</h2>
+          <h2 id="coaching-section">Coaching Holistique</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             eaque. Similique illo expedita quae facere aut, incidunt esse itaque
             saepe alias, architecto nisi dignissimos officiis nihil officia
             quibusdam harum iure.
           </p>
-          <h2>Sauna | Hammam</h2>
+          <h2 id="sauna-section">Sauna | Hammam</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             eaque. Similique illo expedita quae facere aut, incidunt esse itaque
