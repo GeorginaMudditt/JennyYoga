@@ -10,32 +10,41 @@ function Yoga() {
           <h1>Yoga</h1>
           <h2>Vinyasa</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-            eaque. Similique illo expedita quae facere aut, incidunt esse itaque
-            saepe alias, architecto nisi dignissimos officiis nihil officia
-            quibusdam harum iure.
+            Le Vinyasa yoga est un style dynamique qui relie la respiration au
+            mouvement dans une séquence fluide de postures. Il met l’accent sur
+            des transitions harmonieuses, renforçant la force, la flexibilité et
+            la pleine conscience. Souvent appelé "yoga flow", il varie en
+            intensité et favorise l'équilibre, la coordination et un état
+            méditatif.
           </p>
+          <button className="btn">Réserver</button>
           <h2 id="postural-section">Postural</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-            eaque. Similique illo expedita quae facere aut, incidunt esse itaque
-            saepe alias, architecto nisi dignissimos officiis nihil officia
-            quibusdam harum iure.
+            Le yoga postural met l’accent sur l’alignement, la force et la
+            flexibilité à travers des postures précises. Il favorise une bonne
+            posture, l’équilibre et la conscience corporelle, souvent avec des
+            accessoires. Ce style améliore la stabilité, réduit les tensions et
+            convient à tous les niveaux.
           </p>
+          <button className="btn">Réserver</button>
           <h2 id="yin-section">Yin yoga</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-            eaque. Similique illo expedita quae facere aut, incidunt esse itaque
-            saepe alias, architecto nisi dignissimos officiis nihil officia
-            quibusdam harum iure.
+            Le yin yoga est une pratique lente qui cible les tissus profonds
+            avec des postures passives maintenues longtemps. Il améliore la
+            flexibilité, la mobilité articulaire et favorise la relaxation. Ce
+            style méditatif équilibre l’énergie, réduit le stress et complète
+            les pratiques de yoga plus dynamiques.
           </p>
+          <button className="btn">Réserver</button>
           <h2 id="dance-section">Yoga danse</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-            eaque. Similique illo expedita quae facere aut, incidunt esse itaque
-            saepe alias, architecto nisi dignissimos officiis nihil officia
-            quibusdam harum iure.
+            Le yoga danse mélange postures de yoga et mouvements rythmiques pour
+            une pratique fluide et expressive. Il améliore la flexibilité, la
+            coordination et la conscience corporelle tout en favorisant la joie
+            et la créativité. Ce style dynamique unit souffle, musique et
+            mouvement pour une expérience libératrice et énergisante.
           </p>
+          <button className="btn">Réserver</button>
         </div>
         <div className="yoga-image">
           <img className="outside-yoga" src={outside} alt="outside yoga" />
