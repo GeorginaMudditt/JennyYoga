@@ -1,10 +1,30 @@
+import { useState, useRef } from "react";
 import "./App.css";
 import "./Intro.css";
 import heart_socks from "./assets/heart-socks.jpg";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
+import { FaMusic } from "react-icons/fa";
+import { FaVolumeMute } from "react-icons/fa";
 
 function Intro() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const toggleMusic = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play().catch((error) => {
+          console.error("Error playing audio: " + error);
+        });
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
   return (
     <>
       <div className="Intro">
@@ -24,6 +44,15 @@ function Intro() {
           >
             <FaSquareInstagram className="socials-icon" />
           </a>
+          <a href="" target="_blank" rel="noreferrer">
+            <FaTiktok className="socials-icon" />
+          </a>
+          <audio ref={audioRef} loop>
+            <source src="/background-music.mp3" type="audio/mpeg" />
+          </audio>
+          <button onClick={toggleMusic} className="music-button">
+            {isPlaying ? <FaVolumeMute /> : <FaMusic />}
+          </button>
         </div>
         <img className="heart-socks" src={heart_socks} alt="heart-socks" />
       </div>

@@ -18,6 +18,13 @@ h1 {
   font-size: 30px;
 }
 
+.Intro .music-button {
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #685454;
+  color: #dcdbde;
+}
 .Intro .heart-socks {
   width: 50%;
 }
