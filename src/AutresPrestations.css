@@ -24,3 +24,9 @@
 .AutresPrestations .massage-text {
   padding: 20px 40px;
 }
+
+.AutresPrestations .btn {
+  background-color: #ea8a8a;
+  color: #685454;
+  margin-bottom: 20px;
+}
