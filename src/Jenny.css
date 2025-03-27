@@ -1,3 +1,14 @@
 .Jenny {
-  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Jenny .lotus {
+  height: 500px;
+}
+
+.Jenny .jenny-intro-text {
+  color: #685454;
+  padding: 20px;
 }

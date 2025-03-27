@@ -9,6 +9,10 @@ h1 {
   color: #685454;
 }
 
+.Intro .socials {
+  margin: 10px;
+}
+
 .Intro .socials-icon {
   margin: 10px;
   font-size: 30px;
