@@ -1,3 +1,13 @@
 .Yoga {
-  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Yoga .outside-yoga {
+  width: 100%;
+}
+
+.Jenny .jenny-intro-text {
+  padding: 20px;
 }

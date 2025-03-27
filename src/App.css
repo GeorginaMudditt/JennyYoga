@@ -8,8 +8,18 @@
 h1 {
   margin: 0;
   font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  color: #685454;
+}
+
+h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+  color: #685454;
 }
 
 p {
   font-family: "EB Garamond", serif;
+  font-size: 20px;
+  color: #685454;
 }
