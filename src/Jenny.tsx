@@ -10,7 +10,7 @@ function Jenny() {
           <img className="lotus" src={lotus} alt="lotus position" />
         </div>
         <div className="jenny-text">
-          <h1>Je suis Jenny</h1>
+          <h1>Je suis D'jenny</h1>
           <p className="jenny-intro-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
             rerum illum consectetur. Fugiat consequuntur debitis tempora ut,

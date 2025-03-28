@@ -29,7 +29,7 @@ function Intro() {
     <>
       <div className="Intro">
         <div className="socials">
-          <h1>Jenny Yoga</h1>
+          <h1>D'jenny Yoga</h1>
           <a
             href="https://www.facebook.com/djenny.bicep"
             target="_blank"

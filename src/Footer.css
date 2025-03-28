@@ -2,5 +2,23 @@
   background-color: #ebd5d5;
   background-image: url("./assets/billie-holiday.png");
   font-family: "EB Garamond", serif;
-  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Footer h4 {
+  color: #685454;
+}
+
+.Footer a {
+  color: #685454;
+}
+
+.Footer .address {
+  text-align: left;
+  margin-left: 20px;
 }

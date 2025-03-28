@@ -26,7 +26,7 @@ function Header() {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="#">
-                    Jenny
+                    D'jenny
                   </a>
                 </li>
                 <li className="nav-item dropdown">
