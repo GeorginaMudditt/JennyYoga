@@ -28,3 +28,21 @@
 .Yoga .yoga-text {
   padding: 20px 40px;
 }
+
+@media (max-width: 768px) {
+  .Yoga {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Yoga .outside-yoga {
+    width: 60%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .Yoga {
+    margin: 0;
+  }
+}

@@ -12,10 +12,9 @@ function Jenny() {
         <div className="jenny-text">
           <h1>Je suis D'jenny</h1>
           <p className="jenny-intro-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            rerum illum consectetur. Fugiat consequuntur debitis tempora ut,
-            cumque eaque deleniti dolores minus quis mollitia soluta. Quidem
-            nemo in minus blanditiis?
+            [ Voici la section pour te présenter. Dis un peu qui tu es, ton
+            parcours professionnel/qualifications/expérience, et pourquoi les
+            gens devraient venir vers toi ! ]
           </p>
         </div>
       </div>

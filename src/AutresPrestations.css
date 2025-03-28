@@ -30,3 +30,21 @@
   color: #685454;
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .AutresPrestations {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .AutresPrestations .massage {
+    width: 60%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .AutresPrestations {
+    margin: 0;
+  }
+}
