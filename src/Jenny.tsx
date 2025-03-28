@@ -10,7 +10,7 @@ function Jenny() {
           <img className="lotus" src={lotus} alt="lotus position" />
         </div>
         <div className="jenny-text">
-          <h1>Je suis D'jenny</h1>
+          <h1 id="jenny-section">Je suis D'jenny</h1>
           <p className="jenny-intro-text">
             [ Voici la section pour te présenter. Dis un peu qui tu es, ton
             parcours professionnel/qualifications/expérience, et pourquoi les

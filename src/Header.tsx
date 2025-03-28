@@ -25,7 +25,11 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="#jenny-section"
+                  >
                     D'jenny
                   </a>
                 </li>
