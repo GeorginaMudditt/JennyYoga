@@ -25,7 +25,7 @@ function Contact() {
           </p>
           <p className="contact-details">
             <BsFillTelephoneFill className="contact-icon" />
-            00 00 00 00 00
+            06 11 11 73 23
             <br />
             <MdEmail className="contact-icon" />
             jennyraymax@live.fr
