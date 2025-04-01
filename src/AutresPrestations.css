@@ -26,9 +26,23 @@
 }
 
 .AutresPrestations .btn {
-  background-color: #ea8a8a;
   color: #685454;
   margin-bottom: 20px;
+}
+
+.AutresPrestations .meditation {
+  background-color: #42b883;
+}
+
+.AutresPrestations .massages {
+  background-color: #3baea0;
+}
+.AutresPrestations .coaching {
+  background-color: #97cba9;
+}
+.AutresPrestations .sauna {
+  background-color: #2c786c;
+  color: #e4ded7;
 }
 
 @media (max-width: 768px) {

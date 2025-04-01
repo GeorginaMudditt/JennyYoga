@@ -14,12 +14,27 @@
 }
 
 .Yoga .btn {
-  background-color: #ea8a8a;
   color: #685454;
   margin-bottom: 20px;
 }
 
-.Yoga .outside-yoga {
+.Yoga .vinyasa {
+  background-color: #ffc93c;
+}
+
+.Yoga .postural {
+  background-color: #f8f398;
+}
+
+.Yoga .yin {
+  background-color: #f1b963;
+}
+
+.Yoga .danse {
+  background-color: #f8da5b;
+}
+
+.Yoga .standing-yoga {
   width: 80%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 4px;
@@ -35,7 +50,7 @@
     align-items: center;
   }
 
-  .Yoga .outside-yoga {
+  .Yoga .standing-yoga {
     width: 60%;
     margin: 0;
   }

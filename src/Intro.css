@@ -29,6 +29,10 @@ h1 {
   width: 50%;
 }
 
+.Intro h1 {
+  font-size: 80px;
+}
+
 @media (max-width: 576px) {
   .Intro {
     flex-direction: column;
