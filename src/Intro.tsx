@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import "./App.css";
 import "./Intro.css";
 import heart_socks from "./assets/heart-socks.jpg";
+import logo from "./assets/djenny-logo.jpeg";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
@@ -29,7 +30,9 @@ function Intro() {
     <>
       <div className="Intro">
         <div className="socials">
-          <h1>D'jenny Flow</h1>
+          <div className="logo">
+            <img className="djenny-logo" src={logo} alt="D'Jenny Flow Logo" />
+          </div>
           <a
             href="https://www.facebook.com/djenny.bicep"
             target="_blank"

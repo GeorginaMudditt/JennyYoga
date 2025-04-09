@@ -14,3 +14,16 @@
 .Jenny .jenny-intro-text {
   padding: 20px 40px;
 }
+
+@media (max-width: 576px) {
+  .Jenny {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .Jenny .lotus {
+    width: 60%;
+    margin-top: 40px;
+  }
+}

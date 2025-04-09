@@ -29,6 +29,12 @@ h1 {
   width: 50%;
 }
 
+.Intro .djenny-logo {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 40%;
+}
+
 .Intro h1 {
   font-size: 100px;
 }
@@ -41,6 +47,11 @@ h1 {
   }
 
   .Intro .heart-socks {
+    margin-top: 40px;
     width: 100%;
+  }
+  .Intro .djenny-logo {
+    width: 60%;
+    margin-bottom: 50px;
   }
 }

@@ -1,6 +1,6 @@
 import "./App.css";
 import "./Yoga.css";
-import standing from "./assets/standing.jpg";
+import dance from "./assets/yoga-danse.jpeg";
 
 function Yoga() {
   return (
@@ -47,7 +47,7 @@ function Yoga() {
           <button className="btn danse">Réserver</button>
         </div>
         <div className="yoga-image">
-          <img className="standing-yoga" src={standing} alt="standing yoga" />
+          <img className="yoga-danse" src={dance} alt="yoga dance" />
         </div>
       </div>
     </>

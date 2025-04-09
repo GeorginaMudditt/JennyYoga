@@ -34,8 +34,8 @@
   background-color: #f8da5b;
 }
 
-.Yoga .standing-yoga {
-  width: 80%;
+.Yoga .yoga-danse {
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 4px;
 }
@@ -50,7 +50,7 @@
     align-items: center;
   }
 
-  .Yoga .standing-yoga {
+  .Yoga .yoga-danse {
     width: 60%;
     margin: 0;
   }

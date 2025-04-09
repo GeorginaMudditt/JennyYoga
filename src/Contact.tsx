@@ -2,7 +2,7 @@ import "./App.css";
 import "./Contact.css";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import danse from "./assets/danse.jpg";
+import river from "./assets/contact-photo.jpeg";
 
 function Contact() {
   return (
@@ -32,7 +32,7 @@ function Contact() {
           </p>
         </div>
         <div className="contact-image">
-          <img className="freedom" src={danse} alt="freedom in nature" />
+          <img className="freedom" src={river} alt="freedom in nature" />
         </div>
       </div>
     </>
