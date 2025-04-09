@@ -32,7 +32,8 @@ h1 {
 .Intro .djenny-logo {
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 40%;
+  width: 80%;
+  margin-bottom: 50px;
 }
 
 .Intro h1 {
