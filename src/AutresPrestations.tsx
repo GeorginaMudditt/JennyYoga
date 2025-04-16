@@ -19,7 +19,7 @@ function AutresPrestations() {
             concentration et cultive la paix intérieure. Une pratique régulière
             équilibre les émotions et renforce le bien-être.
           </p>
-          <button className="btn meditation">Plus d'informations</button>
+          {/* <button className="btn meditation">Plus d'informations</button> */}
           <h2 id="massage-section">Massage et soins énergétiques</h2>
           <p>
             Le massage et les soins énergétiques allient le toucher et des
@@ -29,7 +29,7 @@ function AutresPrestations() {
             et harmonisent le flux naturel du corps, favorisant détente et
             bien-être.
           </p>
-          <button className="btn massages">Plus d'informations</button>
+          {/* <button className="btn massages">Plus d'informations</button> */}
           <h2 id="coaching-section">Coaching Holistique</h2>
           <p>
             Le coaching holistique accompagne le développement personnel en
@@ -38,7 +38,7 @@ function AutresPrestations() {
             défis et atteindre ses objectifs, favorisant bien-être et
             épanouissement.
           </p>
-          <button className="btn coaching">Plus d'informations</button>
+          {/* <button className="btn coaching">Plus d'informations</button> */}
           <h2 id="sauna-section">Sauna | Hammam</h2>
           <p>
             Le sauna et le hammam sont des thérapies de relaxation par la
@@ -47,7 +47,7 @@ function AutresPrestations() {
             vapeur. Ils améliorent la circulation, soulagent les tensions
             musculaires et purifient la peau, favorisant le bien-être.
           </p>
-          <button className="btn sauna">Plus d'informations</button>
+          {/* <button className="btn sauna">Plus d'informations</button> */}
         </div>
       </div>
     </>

@@ -17,7 +17,17 @@ function Yoga() {
             intensité et favorise l'équilibre, la coordination et un état
             méditatif.
           </p>
-          <button className="btn vinyasa">Réserver</button>
+          <div className="vinyasa-info">
+            <p>
+              Cours collectifs : Carcès Lundis à 18h | Cotignac Mardis à 18h
+            </p>
+
+            <p>Cours particuliers : Contactez-moi pour plus d'informations</p>
+            <p>
+              Événement : Yoga Parents & Enfants, Carcès, Samedi 19 avril 10h
+            </p>
+          </div>
+          {/* <button className="btn vinyasa">Réserver</button> */}
           <h2 id="postural-section">Postural</h2>
           <p>
             Le yoga postural met l’accent sur l’alignement, la force et la
@@ -26,7 +36,16 @@ function Yoga() {
             accessoires. Ce style améliore la stabilité, réduit les tensions et
             convient à tous les niveaux.
           </p>
-          <button className="btn postural">Réserver</button>
+          <div className="postural-info">
+            <p>
+              Cours collectifs : Carcès Jeudis à 18h | Lorgues Vendredis à 18h
+            </p>
+            <p>Cours particuliers : Contactez-moi pour plus d'informations</p>
+            <p>
+              Événement : Yoga en pleine air, Brignoles, Dimanche 20 avril 11h30
+            </p>
+          </div>
+          {/* <button className="btn postural">Réserver</button> */}
           <h2 id="yin-section">Yin yoga</h2>
           <p>
             Le yin yoga est une pratique lente qui cible les tissus profonds
@@ -35,7 +54,7 @@ function Yoga() {
             style méditatif équilibre l’énergie, réduit le stress et complète
             les pratiques de yoga plus dynamiques.
           </p>
-          <button className="btn yin">Réserver</button>
+          {/* <button className="btn yin">Réserver</button> */}
           <h2 id="dance-section">Yoga danse</h2>
           <p>
             Le yoga danse mélange postures de yoga et mouvements rythmiques pour
@@ -44,7 +63,7 @@ function Yoga() {
             et la créativité. Ce style dynamique unit souffle, musique et
             mouvement pour une expérience libératrice et énergisante.
           </p>
-          <button className="btn danse">Réserver</button>
+          {/* <button className="btn danse">Réserver</button> */}
         </div>
         <div className="yoga-image">
           <img className="yoga-danse" src={dance} alt="yoga dance" />

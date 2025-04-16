@@ -13,6 +13,14 @@
   margin: 0 20px 10px 20px;
 }
 
+.Yoga .vinyasa-info,
+.postural-info {
+  background-color: #ddcbca;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
 .Yoga .btn {
   color: #685454;
   margin-bottom: 20px;
