@@ -6,7 +6,7 @@ function Footer() {
     <>
       <div className="Footer">
         <div className="address">
-          <h4>Espace bien-être :</h4>
+          <h4>Studio de Yoga :</h4>
           <p>Rez-de-chaussée de V-Forme</p>
           <p>ZA Les Praderies</p>
           <p>83570 Carcès</p>
