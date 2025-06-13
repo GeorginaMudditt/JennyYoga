@@ -11,22 +11,25 @@ function Yoga() {
       <div className="Yoga" id="yoga-section">
         <div className="yoga-text">
           <h1>Yoga</h1>
-          <h2>Vinyasa</h2>
+
           <div className="vinyasa-container">
             <img
               className="vinyasa-yoga-image"
               src={yoga2}
               alt="vinyasa yoga"
             />
-            <p>
-              Le Vinyasa est un Yoga dynamique, qui conjugue Cardio,
-              renforcement musculaire et souplesse. Il relie la respiration au
-              mouvement dans une séquence fluide de postures. Il met l’accent
-              sur des transitions harmonieuses, renforçant la force, la
-              flexibilité et la pleine conscience. Souvent appelé "yoga flow",
-              il varie en intensité et favorise l'équilibre, la coordination et
-              un état méditatif.
-            </p>
+            <div>
+              <h2>Vinyasa</h2>
+              <p>
+                Le Vinyasa est un Yoga dynamique, qui conjugue Cardio,
+                renforcement musculaire et souplesse. Il relie la respiration au
+                mouvement dans une séquence fluide de postures. Il met l’accent
+                sur des transitions harmonieuses, renforçant la force, la
+                flexibilité et la pleine conscience. Souvent appelé "yoga flow",
+                il varie en intensité et favorise l'équilibre, la coordination
+                et un état méditatif.
+              </p>
+            </div>
           </div>
           <div className="vinyasa-info">
             <p>
