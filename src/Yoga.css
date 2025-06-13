@@ -10,8 +10,9 @@
 }
 
 .Yoga p {
-  margin: 0 20px 10px 20px;
+  margin: 30px;
   text-align: justify;
+  align-self: center;
 }
 
 .Yoga .vinyasa-info,
@@ -22,6 +23,7 @@
   padding: 10px 0;
   border-radius: 10px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .Yoga .vinyasa-container,
@@ -36,9 +38,10 @@
 .yin-yoga-image,
 .postural-yoga-image,
 .danse-yoga-image {
-  width: 200px;
+  width: 300px;
   object-fit: cover;
   border-radius: 4px;
+  margin: 30px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
