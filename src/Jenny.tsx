@@ -1,14 +1,10 @@
 import "./App.css";
 import "./Jenny.css";
-import lotus from "./assets/crossed-legs.jpg";
 
 function Jenny() {
   return (
     <>
       <div className="Jenny">
-        <div className="jenny-image">
-          <img className="lotus" src={lotus} alt="lotus position" />
-        </div>
         <div className="jenny-text">
           <h1 id="jenny-section">D'jenny Flow</h1>
           <p className="jenny-intro-text">
