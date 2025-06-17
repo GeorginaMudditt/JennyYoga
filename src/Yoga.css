@@ -20,6 +20,10 @@
   align-self: center;
 }
 
+.Yoga .yoga-description {
+  align-content: end;
+}
+
 .Yoga .vinyasa-info,
 .postural-info,
 .yin-info,

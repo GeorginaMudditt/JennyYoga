@@ -18,7 +18,7 @@ function Yoga() {
               src={yoga2}
               alt="vinyasa yoga"
             />
-            <div>
+            <div className="yoga-description">
               <h2>Vinyasa</h2>
               <p>
                 Le Vinyasa est un Yoga dynamique, qui conjugue Cardio,
