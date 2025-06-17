@@ -18,12 +18,6 @@ function Contact() {
             , Carcès
           </p>
           <p className="contact-details">
-            Réservez sur{" "}
-            <a href="https://www.planity.com/" target="_blank" rel="noreferrer">
-              Planity
-            </a>
-          </p>
-          <p className="contact-details">
             <BsFillTelephoneFill className="contact-icon" />
             04 94 04 20 75
             <br />

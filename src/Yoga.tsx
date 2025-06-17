@@ -33,8 +33,10 @@ function Yoga() {
           </div>
           <div className="vinyasa-info">
             <p className="vinyasa-text">
-              Tous les mercredis à 19h à V-Forme Carcès | Cours particulier ou
-              en groupe au Studio sur réservation
+              Tous les mercredis à 19h à V-Forme Carcès
+            </p>
+            <p className="vinyasa-text">
+              Cours particulier ou en groupe au Studio sur réservation
             </p>
           </div>
           {/* <button className="btn vinyasa">Réserver</button> */}
@@ -60,8 +62,10 @@ function Yoga() {
           </div>
           <div className="postural-info">
             <p className="postural-text">
-              Tous les mardis à 18h à V-Forme Carcès | Cours particulier ou en
-              groupe au Studio sur réservation
+              Tous les mardis à 18h à V-Forme Carcès
+            </p>
+            <p className="postural-text">
+              Cours particulier ou en groupe au Studio sur réservation
             </p>
           </div>
           {/* <button className="btn postural">Réserver</button> */}
@@ -84,8 +88,10 @@ function Yoga() {
             </div>
           </div>
           <div className="yin-info">
-            <p>
-              Cours collectifs à partir de septembre 2025 à V-Forme Carcès |
+            <p className="yin-text">
+              Cours collectifs à partir de septembre 2025 à V-Forme Carcès
+            </p>
+            <p className="yin-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
           </div>
@@ -105,8 +111,10 @@ function Yoga() {
             <img className="danse-yoga-image" src={dance} alt="yoga dance" />
           </div>
           <div className="danse-info">
-            <p>
-              Cours collectifs à partir de septembre 2025 à V-Forme Carcès |
+            <p className="danse-text">
+              Cours collectifs à partir de septembre 2025 à V-Forme Carcès
+            </p>
+            <p className="danse-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
           </div>
