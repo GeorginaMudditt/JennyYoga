@@ -43,14 +43,6 @@
   margin-bottom: 20px;
 }
 
-.AutresPrestations .massage {
-  width: 300px;
-  margin-left: 50px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 4px;
-  filter: grayscale(1);
-}
-
 .AutresPrestations .massage-text {
   padding: 20px 40px;
 }
