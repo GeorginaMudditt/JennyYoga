@@ -1,6 +1,7 @@
 import "./App.css";
 import "./AutresPrestations.css";
 import meditation from "./assets/meditation-new.jpeg";
+import massage from "./assets/massage-new.jpeg";
 
 function AutresPrestations() {
   return (
@@ -34,16 +35,22 @@ function AutresPrestations() {
             </p>
           </div>
           {/* <button className="btn meditation">Plus d'informations</button> */}
-          <h2 id="massage-section">Massage et soins énergétiques</h2>
-          <p>
-            Le massage ( massage des 5 continents, massage énergétique et
-            Holistique aux huiles essentielles). Les soins énergétiques, et le
-            magnétisme, pour rétablir l’équilibre physique et énergétique. Ces 2
-            prestations permettent de soulager les tensions, apaisent le corps,
-            l’esprit et les émotions en rééquilibrant les flux énergétiques.
-            Apaise le stress, soulage certaines pathologies (sans remplacer par
-            un suivi et traitement médical) et favorise une profonde relaxation.
-          </p>
+          <div className="container">
+            <div className="meditation-description">
+              <h2 id="massage-section">Massage et soins énergétiques</h2>
+              <p>
+                Le massage ( massage des 5 continents, massage énergétique et
+                Holistique aux huiles essentielles). Les soins énergétiques, et
+                le magnétisme, pour rétablir l’équilibre physique et
+                énergétique. Ces 2 prestations permettent de soulager les
+                tensions, apaisent le corps, l’esprit et les émotions en
+                rééquilibrant les flux énergétiques. Apaise le stress, soulage
+                certaines pathologies (sans remplacer par un suivi et traitement
+                médical) et favorise une profonde relaxation.
+              </p>
+            </div>
+            <img className="massage-image" src={massage} alt="massage area" />
+          </div>
           <div className="massage-info">
             <p>Sur réservation au Studio, espace Massage</p>
           </div>

@@ -25,7 +25,8 @@
   margin-bottom: 20px;
 }
 
-.AutresPrestations .meditation-image {
+.AutresPrestations .meditation-image,
+.massage-image {
   width: 300px;
   object-fit: cover;
   border-radius: 4px;

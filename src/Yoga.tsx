@@ -41,7 +41,7 @@ function Yoga() {
           </div>
           {/* <button className="btn vinyasa">Réserver</button> */}
 
-          <div className="vinyasa-container">
+          <div className="postural-container">
             <div className="yoga-description">
               <h2 id="postural-section">Postural</h2>
               <p>
