@@ -1,25 +1,32 @@
 import "./App.css";
 import "./AutresPrestations.css";
-import massage from "./assets/massage2.jpg";
+import meditation from "./assets/meditation-new.jpeg";
 
 function AutresPrestations() {
   return (
     <>
       <div className="AutresPrestations">
-        <div className="massage-image">
-          <img className="massage" src={massage} alt="back massage" />
-        </div>
         <div className="massage-text">
           <h1>Autres Prestations</h1>
-          <h2 id="meditation-section">Méditation</h2>
-          <p>
-            La méditation est une pratique de pleine conscience et de voyage
-            intérieur; de lacher prise, guider par ma voix, sons, musique, par
-            la respiration et la visualisation. Apaise l’esprit et favorise la
-            clarté mentale. Cette pratique permet la réduction du stress,
-            améliore la concentration, cultive la paix intérieure, équilibre les
-            émotions et renforce le bien-être.
-          </p>
+
+          <div className="container">
+            <img
+              className="meditation-image"
+              src={meditation}
+              alt="meditation area"
+            />
+            <div className="meditation-description">
+              <h2 id="meditation-section">Méditation</h2>
+              <p>
+                La méditation est une pratique de pleine conscience et de voyage
+                intérieur; de lacher prise, guider par ma voix, sons, musique,
+                par la respiration et la visualisation. Apaise l’esprit et
+                favorise la clarté mentale. Cette pratique permet la réduction
+                du stress, améliore la concentration, cultive la paix
+                intérieure, équilibre les émotions et renforce le bien-être.
+              </p>
+            </div>
+          </div>
           <div className="meditation-info">
             <p>
               Séance particulière, collectifs ou en groupe au Studio sur
