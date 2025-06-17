@@ -73,10 +73,16 @@
     flex-direction: column-reverse;
     align-items: center;
   }
-
-  .AutresPrestations .massage {
-    width: 60%;
-    margin: 0;
+  .AutresPrestations .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .AutresPrestations .meditation-info,
+  .massage-info,
+  .coaching-info,
+  .sauna-info {
+    margin: 0 10px;
   }
 }
 
