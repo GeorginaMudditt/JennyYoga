@@ -42,7 +42,7 @@ function Yoga() {
           {/* <button className="btn vinyasa">Réserver</button> */}
 
           <div className="vinyasa-container">
-            <div>
+            <div className="yoga-description">
               <h2 id="postural-section">Postural</h2>
               <p>
                 Le yoga postural, par des exercices de renforcement musculaire,
@@ -72,7 +72,7 @@ function Yoga() {
 
           <div className="yin-container">
             <img className="yin-yoga-image" src={lotus} alt="yin yoga" />
-            <div>
+            <div className="yoga-description">
               <h2 id="yin-section">Yin yoga</h2>
               <p>
                 Le yin yoga est une pratique douce, énergétique et méditative ou
@@ -98,7 +98,7 @@ function Yoga() {
           {/* <button className="btn yin">Réserver</button> */}
 
           <div className="danse-container">
-            <div>
+            <div className="yoga-description">
               <h2 id="dance-section">Yoga danse</h2>
               <p>
                 Le yoga danse est une discipline mêlant mouvements de yoga et
