@@ -35,8 +35,14 @@ function AutresPrestations() {
               Séance particulière, collectifs ou en groupe au Studio sur
               réservation
             </p>
+            <a
+              className="btn meditation"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
-          {/* <button className="btn meditation">Plus d'informations</button> */}
+
           <div className="container">
             <div className="massage-description">
               <h2 id="massage-section">Massage et soins énergétiques</h2>
@@ -55,8 +61,15 @@ function AutresPrestations() {
           </div>
           <div className="massage-info">
             <p>Sur réservation au Studio, espace Massage</p>
+            <p>De jeudi à samedi</p>
+            <a
+              className="btn massages"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
-          {/* <button className="btn massages">Plus d'informations</button> */}
+
           <div className="container">
             <img
               className="coaching-image"
@@ -78,8 +91,14 @@ function AutresPrestations() {
           </div>
           <div className="coaching-info">
             <p>Sur rdv et consultation au Studio</p>
+            <a
+              className="btn coaching"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
-          {/* <button className="btn coaching">Plus d'informations</button> */}
+
           <div className="container">
             <div className="sauna-description">
               <h2 id="sauna-section">Sauna | Hammam</h2>
@@ -96,8 +115,14 @@ function AutresPrestations() {
           </div>
           <div className="sauna-info">
             <p>Sur réservation au Studio, espace Spa</p>
+            <p>De lundi à vendredi 10h à 19h | Samedi 10h à 12h30</p>
+            <a
+              className="btn sauna"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
-          {/* <button className="btn sauna">Plus d'informations</button> */}
         </div>
       </div>
     </>

@@ -82,6 +82,11 @@
   padding: 20px 40px;
 }
 
+.Yoga .fb-link {
+  color: #45171d;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .Yoga {
     flex-direction: column;

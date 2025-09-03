@@ -103,7 +103,11 @@ function Yoga() {
             </p>
             <p className="yin-text">
               Consultez ma page{" "}
-              <a href="https://www.facebook.com/DjenFlow" target="_blank">
+              <a
+                className="fb-link"
+                href="https://www.facebook.com/DjenFlow"
+                target="_blank"
+              >
                 Facebook
               </a>{" "}
               pour les événements à venir
@@ -136,7 +140,12 @@ function Yoga() {
             <p className="danse-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
-            <a className="btn danse">Contactez-moi</a>
+            <a
+              className="btn danse"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
         </div>
         <div className="yoga-image"></div>
