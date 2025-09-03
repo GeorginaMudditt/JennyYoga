@@ -21,8 +21,11 @@ function Contact() {
             <BsFillTelephoneFill className="contact-icon" />
             04 94 04 20 75
             <br />
+            <BsFillTelephoneFill className="contact-icon" />
+            06 11 11 73 23
+            <br />
             <MdEmail className="contact-icon" />
-            jennyraymax@live.fr
+            c.essentiellecarces@hotmail.com
           </p>
         </div>
         <div className="contact-image">

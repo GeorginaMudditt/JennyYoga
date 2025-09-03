@@ -31,15 +31,6 @@ function Footer() {
               Instagram
             </a>
           </p>
-          <p>
-            <a
-              href="https://www.tiktok.com/@userfytllk7yau"
-              target="_blank"
-              rel="noreferrer"
-            >
-              TikTok
-            </a>
-          </p>
         </div>
         <div className="address">
           <h4>Site web :</h4>

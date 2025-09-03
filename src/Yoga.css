@@ -59,19 +59,23 @@
 }
 
 .Yoga .vinyasa {
-  background-color: #ffc93c;
+  background-color: #45171d;
+  color: #ddcbca;
 }
 
 .Yoga .postural {
-  background-color: #f8f398;
+  background-color: #975a5e;
+  color: #ddcbca;
 }
 
 .Yoga .yin {
-  background-color: #f1b963;
+  background-color: #734444;
+  color: #ddcbca;
 }
 
 .Yoga .danse {
-  background-color: #f8da5b;
+  background-color: #934662;
+  color: #ddcbca;
 }
 
 .Yoga .yoga-text {

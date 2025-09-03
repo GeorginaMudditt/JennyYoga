@@ -5,7 +5,6 @@ import heart_socks from "./assets/heart-socks.jpg";
 import logo from "./assets/djenny-logo.jpeg";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
 import { FaMusic } from "react-icons/fa";
 import { FaVolumeMute } from "react-icons/fa";
 
@@ -46,13 +45,6 @@ function Intro() {
             rel="noreferrer"
           >
             <FaSquareInstagram className="socials-icon" />
-          </a>
-          <a
-            href="https://www.tiktok.com/@userfytllk7yau"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaTiktok className="socials-icon" />
           </a>
           <audio ref={audioRef} loop>
             <source src="/background-music.mp3" type="audio/mpeg" />

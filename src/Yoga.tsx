@@ -38,14 +38,19 @@ function Yoga() {
             <p className="vinyasa-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
+            <a
+              className="btn vinyasa"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
-          {/* <button className="btn vinyasa">Réserver</button> */}
 
           <div className="postural-container">
             <div className="yoga-description">
-              <h2 id="postural-section">Postural</h2>
+              <h2 id="postural-section">Yoga Fit</h2>
               <p>
-                Le yoga postural, par des exercices de renforcement musculaire,
+                Le yoga fit, par des exercices de renforcement musculaire,
                 gainage et respiration, cette pratique de yoga met l’accent sur
                 l’alignement, la force et la flexibilité à travers des postures
                 précises. Il favorise une bonne posture, l’équilibre et la
@@ -67,8 +72,13 @@ function Yoga() {
             <p className="postural-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
+            <a
+              className="btn postural"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
-          {/* <button className="btn postural">Réserver</button> */}
 
           <div className="yin-container">
             <img className="yin-yoga-image" src={lotus} alt="yin yoga" />
@@ -89,13 +99,22 @@ function Yoga() {
           </div>
           <div className="yin-info">
             <p className="yin-text">
-              Cours collectifs à partir de septembre 2025 à V-Forme Carcès
-            </p>
-            <p className="yin-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
+            <p className="yin-text">
+              Consultez ma page{" "}
+              <a href="https://www.facebook.com/DjenFlow" target="_blank">
+                Facebook
+              </a>{" "}
+              pour les événements à venir
+            </p>
+            <a
+              className="btn yin"
+              href="mailto:c.essentiellecarces@hotmail.com"
+            >
+              Contactez-moi
+            </a>
           </div>
-          {/* <button className="btn yin">Réserver</button> */}
 
           <div className="danse-container">
             <div className="yoga-description">
@@ -112,13 +131,13 @@ function Yoga() {
           </div>
           <div className="danse-info">
             <p className="danse-text">
-              Cours collectifs à partir de septembre 2025 à V-Forme Carcès
+              Tous les lundis à 18h et mardis à 19h15 à V-Forme Carcès
             </p>
             <p className="danse-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
+            <a className="btn danse">Contactez-moi</a>
           </div>
-          {/* <button className="btn danse">Réserver</button> */}
         </div>
         <div className="yoga-image"></div>
       </div>
