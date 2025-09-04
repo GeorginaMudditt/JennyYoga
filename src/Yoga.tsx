@@ -2,8 +2,8 @@ import "./App.css";
 import "./Yoga.css";
 import dance from "./assets/yoga-danse.jpeg";
 import lotus from "./assets/crossed-legs.jpg";
-import yoga1 from "./assets/yoga-new1.jpeg";
 import yoga2 from "./assets/yoga-new2.jpeg";
+import yogafit from "./assets/yoga-fit.jpeg";
 
 function Yoga() {
   return (
@@ -59,11 +59,7 @@ function Yoga() {
                 à tous les niveaux.
               </p>
             </div>
-            <img
-              className="vinyasa-yoga-image"
-              src={yoga1}
-              alt="postural yoga"
-            />
+            <img className="vinyasa-yoga-image" src={yogafit} alt="yoga fit" />
           </div>
           <div className="postural-info">
             <p className="postural-text">

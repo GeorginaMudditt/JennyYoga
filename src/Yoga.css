@@ -54,27 +54,14 @@
 }
 
 .Yoga .btn {
-  color: #685454;
   margin-bottom: 20px;
 }
 
-.Yoga .vinyasa {
+.Yoga .vinyasa,
+.postural,
+.yin,
+.danse {
   background-color: #45171d;
-  color: #ddcbca;
-}
-
-.Yoga .postural {
-  background-color: #975a5e;
-  color: #ddcbca;
-}
-
-.Yoga .yin {
-  background-color: #734444;
-  color: #ddcbca;
-}
-
-.Yoga .danse {
-  background-color: #934662;
   color: #ddcbca;
 }
 

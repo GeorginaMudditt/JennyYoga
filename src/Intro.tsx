@@ -47,7 +47,7 @@ function Intro() {
             <FaSquareInstagram className="socials-icon" />
           </a>
           <audio ref={audioRef} loop>
-            <source src="/background-music.mp3" type="audio/mpeg" />
+            <source src="/piano-yoga-music.mp3" type="audio/mpeg" />
           </audio>
           <button onClick={toggleMusic} className="music-button">
             {isPlaying ? <FaVolumeMute /> : <FaMusic />}

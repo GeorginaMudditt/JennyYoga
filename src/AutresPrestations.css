@@ -55,18 +55,11 @@
   margin-bottom: 20px;
 }
 
-.AutresPrestations .meditation {
+.AutresPrestations .meditation,
+.massages,
+.coaching,
+.sauna {
   background-color: #45171d;
-}
-
-.AutresPrestations .massages {
-  background-color: #975a5e;
-}
-.AutresPrestations .coaching {
-  background-color: #734444;
-}
-.AutresPrestations .sauna {
-  background-color: #934662;
 }
 
 @media (max-width: 768px) {
