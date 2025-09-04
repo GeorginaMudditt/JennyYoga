@@ -9,22 +9,22 @@
   margin: 40px 0 20px 0;
 }
 
-.Yoga h2 {
+h2 {
   text-align: left;
   margin: 30px 0 0 30px;
 }
 
-.Yoga p {
+p {
   margin: 30px;
   text-align: justify;
   align-self: center;
 }
 
-.Yoga .yoga-description {
+.yoga-description {
   align-content: end;
 }
 
-.Yoga .vinyasa-info,
+.vinyasa-info,
 .postural-info,
 .yin-info,
 .danse-info,
@@ -35,7 +35,7 @@
   margin-bottom: 20px;
 }
 
-.Yoga .vinyasa-container,
+.vinyasa-container,
 .yin-container,
 .postural-container,
 .danse-container,
@@ -44,7 +44,7 @@
   margin-bottom: 20px;
 }
 
-.Yoga .vinyasa-yoga-image,
+.vinyasa-yoga-image,
 .yin-yoga-image,
 .postural-yoga-image,
 .danse-yoga-image,
@@ -56,11 +56,11 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.Yoga .btn {
+.btn {
   margin-bottom: 20px;
 }
 
-.Yoga .vinyasa,
+.vinyasa,
 .postural,
 .yin,
 .danse,
@@ -69,7 +69,7 @@
   color: #ddcbca;
 }
 
-.Yoga .yoga-text {
+.yoga-text {
   padding: 20px 40px;
 }
 

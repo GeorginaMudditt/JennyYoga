@@ -158,8 +158,8 @@ function Yoga() {
       <div className="stretch-container">
         <img className="stretch-image" src={stretchflow} alt="stretch flow" />
         <div className="yoga-description">
-          <h2>Stretch Flow</h2>
-          <p>
+          <h2 className="wtf">Stretch Flow</h2>
+          <p className="wtf2">
             Le Stretch Flow est un enchaînement chorégraphié composé de
             différents styles d'étirements, pas de danse et de mouvements
             fluides, le tout en harmonie sur des musiques entraînantes. Les
