@@ -4,6 +4,7 @@ import dance from "./assets/yoga-danse.jpeg";
 import lotus from "./assets/crossed-legs.jpg";
 import yoga2 from "./assets/yoga-new2.jpeg";
 import yogafit from "./assets/yoga-fit.jpeg";
+import stretchflow from "./assets/stretch-flow.jpeg";
 
 function Yoga() {
   return (
@@ -50,13 +51,20 @@ function Yoga() {
             <div className="yoga-description">
               <h2 id="postural-section">Yoga Fit</h2>
               <p>
-                Le yoga fit, par des exercices de renforcement musculaire,
-                gainage et respiration, cette pratique de yoga met l’accent sur
-                l’alignement, la force et la flexibilité à travers des postures
-                précises. Il favorise une bonne posture, l’équilibre et la
-                conscience corporelle, souvent avec des accessoires. Cette
-                pratique améliore la stabilité, réduit les tensions et convient
-                à tous les niveaux.
+                Le Yoga Fit va vous offrir une approche complète qui allie la
+                yoga, la fitness et pilates. Chaque séance vous permet de
+                tonifier l'ensemble de votre corps, de gagner en souplesse et en
+                force, tout en améliorant votre endurance. En pratiquant
+                régulièrement, vous verrez votre posture s'améliorer et vous
+                sentirez plus aligné, aussi bien physiquement que mentalement.
+                Travail de vos muscles en profondeur, renforcement de vos
+                abdominaux et apprendrez à bouger en pleine conscience, tout en
+                favorisant la détente et la gestion du stress. Le Yoga Fit est
+                conçu pour vous faire évoluer à votre rythme, en vous offrant un
+                entraînement équilibré qui améliore à la fois votre force
+                intérieure et extérieure. Pratique dynamique et harmonieuse,
+                l'opportunité idéale pour explorer une nouvelle façon de bouger,
+                qui transforme à la fois votre corps et votre mental.
               </p>
             </div>
             <img className="vinyasa-yoga-image" src={yogafit} alt="yoga fit" />
@@ -145,6 +153,37 @@ function Yoga() {
           </div>
         </div>
         <div className="yoga-image"></div>
+      </div>
+      <div className="stretch-container">
+        <img className="stretch-image" src={stretchflow} alt="stretch flow" />
+        <div className="yoga-description">
+          <h2>Stretch Flow</h2>
+          <p>
+            Le Stretch Flow est un enchaînement chorégraphié composé de
+            différents styles d'étirements, pas de danse et de mouvements
+            fluides, le tout en harmonie sur des musiques entraînantes. Les
+            séquences s'enchaînent de manière fluide et ininterrompue grâce au
+            flow, créant ainsi un espace où le temps semble s'arrêter et où
+            chaque geste devient une expression de soi. Cette pratique se
+            déploie à travers des positions variées : debout, à quatre pattes,
+            assises et allongées. Les différentes techniques d'étirement
+            utilisées incluent: le balistique, le dynamique, l'actif et le
+            passif. La chorégraphie est évolutive, permettant à chaque
+            participant de progresser à son propre rythme. Aucune expérience
+            préalable en danse ou en souplesse n'est requise : chaque
+            participant est libre d'évoluer selon ses aptitudes et de savourer
+            l'instant présent.
+          </p>
+        </div>
+      </div>
+      <div className="stretch-info">
+        <p className="stretch-text">À venir</p>
+        <a
+          className="btn stretch"
+          href="mailto:c.essentiellecarces@hotmail.com"
+        >
+          Contactez-moi
+        </a>
       </div>
     </>
   );

@@ -27,7 +27,8 @@
 .Yoga .vinyasa-info,
 .postural-info,
 .yin-info,
-.danse-info {
+.danse-info,
+.stretch-info {
   background-color: #ddcbca;
   padding: 10px 0;
   border-radius: 10px;
@@ -37,7 +38,8 @@
 .Yoga .vinyasa-container,
 .yin-container,
 .postural-container,
-.danse-container {
+.danse-container,
+.stretch-container {
   display: flex;
   margin-bottom: 20px;
 }
@@ -45,7 +47,8 @@
 .Yoga .vinyasa-yoga-image,
 .yin-yoga-image,
 .postural-yoga-image,
-.danse-yoga-image {
+.danse-yoga-image,
+.stretch-image {
   width: 300px;
   object-fit: cover;
   border-radius: 4px;
@@ -60,7 +63,8 @@
 .Yoga .vinyasa,
 .postural,
 .yin,
-.danse {
+.danse,
+.stretch {
   background-color: #45171d;
   color: #ddcbca;
 }
