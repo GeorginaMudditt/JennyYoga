@@ -86,7 +86,8 @@
   .Yoga .vinyasa-container,
   .yin-container,
   .postural-container,
-  .danse-container {
+  .danse-container,
+  .stretch-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;

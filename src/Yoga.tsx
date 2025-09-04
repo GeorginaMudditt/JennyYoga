@@ -67,7 +67,7 @@ function Yoga() {
                 qui transforme à la fois votre corps et votre mental.
               </p>
             </div>
-            <img className="vinyasa-yoga-image" src={yogafit} alt="yoga fit" />
+            <img className="postural-yoga-image" src={yogafit} alt="yoga fit" />
           </div>
           <div className="postural-info">
             <p className="postural-text">
@@ -154,6 +154,7 @@ function Yoga() {
         </div>
         <div className="yoga-image"></div>
       </div>
+
       <div className="stretch-container">
         <img className="stretch-image" src={stretchflow} alt="stretch flow" />
         <div className="yoga-description">
