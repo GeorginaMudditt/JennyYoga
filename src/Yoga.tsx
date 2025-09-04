@@ -4,7 +4,7 @@ import dance from "./assets/yoga-danse.jpeg";
 import lotus from "./assets/crossed-legs.jpg";
 import yoga2 from "./assets/yoga-new2.jpeg";
 import yogafit from "./assets/yoga-fit.jpeg";
-import stretchflow from "./assets/stretch-flow.jpeg";
+// import stretchflow from "./assets/stretch-flow.jpeg";
 
 function Yoga() {
   return (
@@ -155,7 +155,7 @@ function Yoga() {
         <div className="yoga-image"></div>
       </div>
 
-      <div className="stretch-container">
+      {/* <div className="stretch-container">
         <img className="stretch-image" src={stretchflow} alt="stretch flow" />
         <div className="yoga-description">
           <h2 className="wtf">Stretch Flow</h2>
@@ -185,7 +185,7 @@ function Yoga() {
         >
           Contactez-moi
         </a>
-      </div>
+      </div> */}
     </>
   );
 }

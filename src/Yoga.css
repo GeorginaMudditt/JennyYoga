@@ -44,6 +44,11 @@ p {
   margin-bottom: 20px;
 }
 
+.stretch-container {
+  padding: 0 30px;
+  margin: 0 30px;
+}
+
 .vinyasa-yoga-image,
 .yin-yoga-image,
 .postural-yoga-image,
