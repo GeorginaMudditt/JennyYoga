@@ -65,6 +65,13 @@ p {
   margin-bottom: 20px;
 }
 
+.btn:hover {
+  background-color: #ddcbca;
+  color: #45171d;
+  border-color: #45171d;
+  border-width: 1px;
+}
+
 .vinyasa,
 .postural,
 .yin,

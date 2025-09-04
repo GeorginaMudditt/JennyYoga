@@ -52,14 +52,15 @@
 
 .AutresPrestations .btn {
   color: #ddcbca;
+  background-color: #45171d;
   margin-bottom: 20px;
 }
 
-.AutresPrestations .meditation,
-.massages,
-.coaching,
-.sauna {
-  background-color: #45171d;
+.AutresPrestations .btn:hover {
+  color: #45171d;
+  background-color: #ddcbca;
+  border-color: #45171d;
+  border-width: 1px;
 }
 
 @media (max-width: 768px) {

@@ -32,7 +32,7 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="address">
+        {/* <div className="address">
           <h4>Site web :</h4>
           <p>
             Ce site web a été créé avec amour par{" "}
@@ -40,7 +40,7 @@ function Footer() {
               Varstar
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   );
