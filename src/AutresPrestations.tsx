@@ -37,7 +37,7 @@ function AutresPrestations() {
             </p>
             <a
               className="btn meditation"
-              href="mailto:c.essentiellecarces@hotmail.com"
+              href="mailto:vformeholistique@outlook.fr"
             >
               Contactez-moi
             </a>
@@ -64,7 +64,7 @@ function AutresPrestations() {
             <p>De jeudi à samedi</p>
             <a
               className="btn massages"
-              href="mailto:c.essentiellecarces@hotmail.com"
+              href="mailto:vformeholistique@outlook.fr"
             >
               Contactez-moi
             </a>
@@ -93,7 +93,7 @@ function AutresPrestations() {
             <p>Sur rdv et consultation au Studio</p>
             <a
               className="btn coaching"
-              href="mailto:c.essentiellecarces@hotmail.com"
+              href="mailto:vformeholistique@outlook.fr"
             >
               Contactez-moi
             </a>
@@ -116,10 +116,7 @@ function AutresPrestations() {
           <div className="sauna-info">
             <p>Sur réservation au Studio, espace Spa</p>
             <p>De lundi à vendredi 10h à 19h | Samedi 10h à 12h30</p>
-            <a
-              className="btn sauna"
-              href="mailto:c.essentiellecarces@hotmail.com"
-            >
+            <a className="btn sauna" href="mailto:vformeholistique@outlook.fr">
               Contactez-moi
             </a>
           </div>

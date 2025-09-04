@@ -25,7 +25,7 @@ function Contact() {
             06 11 11 73 23
             <br />
             <MdEmail className="contact-icon" />
-            c.essentiellecarces@hotmail.com
+            vformeholistique@outlook.fr
           </p>
         </div>
         <div className="contact-image">

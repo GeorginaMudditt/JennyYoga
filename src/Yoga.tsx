@@ -41,7 +41,7 @@ function Yoga() {
             </p>
             <a
               className="btn vinyasa"
-              href="mailto:c.essentiellecarces@hotmail.com"
+              href="mailto:vformeholistique@outlook.fr"
             >
               Contactez-moi
             </a>
@@ -78,7 +78,7 @@ function Yoga() {
             </p>
             <a
               className="btn postural"
-              href="mailto:c.essentiellecarces@hotmail.com"
+              href="mailto:vformeholistique@outlook.fr"
             >
               Contactez-moi
             </a>
@@ -116,10 +116,7 @@ function Yoga() {
               </a>{" "}
               pour les événements à venir
             </p>
-            <a
-              className="btn yin"
-              href="mailto:c.essentiellecarces@hotmail.com"
-            >
+            <a className="btn yin" href="mailto:vformeholistique@outlook.fr">
               Contactez-moi
             </a>
           </div>
@@ -144,10 +141,7 @@ function Yoga() {
             <p className="danse-text">
               Cours particulier ou en groupe au Studio sur réservation
             </p>
-            <a
-              className="btn danse"
-              href="mailto:c.essentiellecarces@hotmail.com"
-            >
+            <a className="btn danse" href="mailto:vformeholistique@outlook.fr">
               Contactez-moi
             </a>
           </div>
@@ -181,7 +175,7 @@ function Yoga() {
         <p className="stretch-text">À venir</p>
         <a
           className="btn stretch"
-          href="mailto:c.essentiellecarces@hotmail.com"
+          href="mailto:vformeholistique@outlook.fr"
         >
           Contactez-moi
         </a>
