@@ -45,13 +45,18 @@ function Header() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#yoga-section">
+                      <a className="dropdown-item" href="#stretch-flow-section">
+                        Stretch Flow
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#vinyasa-section">
                         Vinyasa
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="#postural-section">
-                        Postural
+                        Yoga Fit
                       </a>
                     </li>
                     <li>

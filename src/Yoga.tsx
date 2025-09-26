@@ -4,7 +4,7 @@ import dance from "./assets/yoga-danse.jpeg";
 import lotus from "./assets/crossed-legs.jpg";
 import yoga2 from "./assets/yoga-new2.jpeg";
 import yogafit from "./assets/yoga-fit.jpeg";
-// import stretchflow from "./assets/stretch-flow.jpeg";
+import stretchflow from "./assets/stretch-flow.jpeg";
 
 function Yoga() {
   return (
@@ -13,6 +13,47 @@ function Yoga() {
         <div className="yoga-text">
           <h1>Yoga</h1>
 
+          <div className="postural-container">
+            <div className="yoga-description">
+              <h2 id="stretch-flow-section">Stretch Flow</h2>
+              <p>
+                Le Stretch Flow® est un enchaînement chorégraphié composé de
+                différents styles d’étirements, de pas de danse et de mouvements
+                fluides, le tout en harmonie sur des musiques entraînantes. Les
+                séquences s’enchaînent de manière fluide et ininterrompue grâce
+                au flow, créant ainsi un espace où le temps semble s’arrêter et
+                où chaque geste devient une expression de soi. Cette pratique se
+                déploie à travers des positions variées : debout, à quatre
+                pattes, assises et allongées. Les différentes techniques
+                d’étirement utilisées incluent : le balistique, le dynamique,
+                l’actif et le passif. La chorégraphie est évolutive, permettant
+                à chaque participant de progresser à son propre rythme. Aucune
+                expérience préalable en danse ou en souplesse n’est requise :
+                chaque participant est libre d’évoluer selon ses aptitudes et de
+                savourer l’instant présent.
+              </p>
+            </div>
+            <img
+              className="postural-yoga-image"
+              src={stretchflow}
+              alt="yoga fit"
+            />
+          </div>
+          <div className="postural-info">
+            <p className="postural-text">
+              Tous les mercredis à 18h à V-Forme Carcès
+            </p>
+            <p className="postural-text">
+              Cours particulier ou en groupe au Studio sur réservation
+            </p>
+            <a
+              className="btn postural"
+              href="mailto:vformeholistique@outlook.fr"
+            >
+              Contactez-moi
+            </a>
+          </div>
+
           <div className="vinyasa-container">
             <img
               className="vinyasa-yoga-image"
@@ -20,7 +61,7 @@ function Yoga() {
               alt="vinyasa yoga"
             />
             <div className="yoga-description">
-              <h2>Vinyasa</h2>
+              <h2 id="vinyasa-section">Vinyasa</h2>
               <p>
                 Le Vinyasa est un Yoga dynamique, qui conjugue Cardio,
                 renforcement musculaire et souplesse. Il relie la respiration au
@@ -148,38 +189,6 @@ function Yoga() {
         </div>
         <div className="yoga-image"></div>
       </div>
-
-      {/* <div className="stretch-container">
-        <img className="stretch-image" src={stretchflow} alt="stretch flow" />
-        <div className="yoga-description">
-          <h2 className="wtf">Stretch Flow</h2>
-          <p className="wtf2">
-            Le Stretch Flow est un enchaînement chorégraphié composé de
-            différents styles d'étirements, pas de danse et de mouvements
-            fluides, le tout en harmonie sur des musiques entraînantes. Les
-            séquences s'enchaînent de manière fluide et ininterrompue grâce au
-            flow, créant ainsi un espace où le temps semble s'arrêter et où
-            chaque geste devient une expression de soi. Cette pratique se
-            déploie à travers des positions variées : debout, à quatre pattes,
-            assises et allongées. Les différentes techniques d'étirement
-            utilisées incluent: le balistique, le dynamique, l'actif et le
-            passif. La chorégraphie est évolutive, permettant à chaque
-            participant de progresser à son propre rythme. Aucune expérience
-            préalable en danse ou en souplesse n'est requise : chaque
-            participant est libre d'évoluer selon ses aptitudes et de savourer
-            l'instant présent.
-          </p>
-        </div>
-      </div>
-      <div className="stretch-info">
-        <p className="stretch-text">À venir</p>
-        <a
-          className="btn stretch"
-          href="mailto:vformeholistique@outlook.fr"
-        >
-          Contactez-moi
-        </a>
-      </div> */}
     </>
   );
 }
