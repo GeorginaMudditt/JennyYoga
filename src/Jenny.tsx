@@ -1,5 +1,6 @@
 import "./App.css";
 import "./Jenny.css";
+import planning from "./assets/planning-djenny.jpg";
 
 function Jenny() {
   return (
@@ -42,6 +43,7 @@ function Jenny() {
             Tout est en vous, vous avez juste à vous laisser guider par le Flow
             des prestations du Studio, pour que la magie opère.
           </p>
+          <img className="planning-image" src={planning} alt="planning" />
         </div>
       </div>
     </>
